@@ -12,7 +12,7 @@ import {
   ShieldCheck,
   Maximize2,
   Calendar,
-  Tool
+  Wrench
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
@@ -196,7 +196,7 @@ export default function BibliotecaPage() {
 
                    <div className="grid grid-cols-2 gap-6 pb-12">
                       <div className="p-8 rounded-[2rem] bg-white/5 border border-white/5">
-                         <Tool className="w-5 h-5 text-zinc-600 mb-4" />
+                         <Wrench className="w-5 h-5 text-zinc-600 mb-4" />
                          <p className="text-[10px] font-bold text-zinc-600 uppercase mb-1">Recambios</p>
                          <p className="text-lg font-bold text-white">Stock Local OK</p>
                       </div>
