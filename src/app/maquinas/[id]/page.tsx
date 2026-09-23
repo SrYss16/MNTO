@@ -55,7 +55,8 @@ function useLiveMetrics(baseValue: string, factor: number = 2) {
 }
 
 export default function MaquinaDetalle() {
-  const { id } = useParams();
+  const params = useParams();
+  const id = params?.id as string;
   const router = useRouter();
   const { toast } = useToaster();
   
