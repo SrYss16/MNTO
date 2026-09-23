@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/YAKUBA/Desktop/GastoAhorro remote -v)",
+      "Bash(git -C /c/Users/YAKUBA/Desktop/GastoAhorro branch --show-current)"
+    ]
+  }
+}
